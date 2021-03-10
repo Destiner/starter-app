@@ -5,7 +5,7 @@
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Destiner/app_starter.git"
+    "url": "git://github.com/Destiner/starter-app.git"
   },
   "scripts": {
     "build": "vite build",
