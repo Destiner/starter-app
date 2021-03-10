@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply my-4 text-2xl font-bold;
+	}
+
+	a {
+		@apply text-black no-underline;
+	}
+}
