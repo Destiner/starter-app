@@ -1,6 +1,7 @@
 <template>
 	<div>
 		<h1>Main page</h1>
+		<Banner />
 		<div>Latest block on Ethereum: {{ block }}</div>
 	</div>
 </template>
@@ -11,6 +12,9 @@ import { ref, defineComponent, onMounted } from 'vue';
 import Banner from '@/components/Banner.vue';
 
 export default defineComponent({
+	components: {
+		Banner,
+	},
 	setup() {
 		const block = ref('0');
 
