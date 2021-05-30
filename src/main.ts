@@ -21,7 +21,4 @@ app.use(router);
 
 app.mount('#app');
 
-export {
-	routerHistory,
-	router,
-};
+export { routerHistory, router };
