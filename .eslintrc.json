@@ -13,11 +13,12 @@
 		"SharedArrayBuffer": "readonly"
 	},
 	"parserOptions": {
-        "parser": "@typescript-eslint/parser",
-        "ecmaVersion": 2020,
-        "sourceType": "module"
-    },
+		"parser": "@typescript-eslint/parser",
+		"ecmaVersion": 2020,
+		"sourceType": "module"
+	},
 	"plugins": [
+		"eslint-plugin-prettier",
 		"vue"
 	],
 	"rules": {
@@ -38,19 +39,20 @@
 			"always"
 		],
 		"comma-dangle": ["error", "always-multiline"],
-        "@typescript-eslint/ban-ts-ignore": "off",
-        "@typescript-eslint/no-explicit-any": "off",
-        "@typescript-eslint/no-use-before-define": "off",
-        "vue/no-v-html": "off",
-        "vue/html-indent": [
-            "error",
-            "tab"
-        ],
-        "vue/component-tags-order": [
-            "error",
-            {
-                "order": ["template", "script", "style"]
-            }
-        ]
+		"prettier/prettier": "error",
+		"@typescript-eslint/ban-ts-ignore": "off",
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/no-use-before-define": "off",
+		"vue/no-v-html": "off",
+		"vue/html-indent": [
+			"error",
+			"tab"
+		],
+		"vue/component-tags-order": [
+			"error",
+			{
+				"order": ["template", "script", "style"]
+			}
+		]
 	}
 }
