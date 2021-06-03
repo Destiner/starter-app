@@ -1,6 +1,6 @@
 [build]
 	publish = "dist/"
-	command = "npm run serve"
+	command = "npm run build"
 
 # SPA setup
 [[redirects]]
