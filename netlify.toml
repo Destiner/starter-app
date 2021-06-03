@@ -1,6 +1,6 @@
 [build]
 	publish = "dist/"
-	command = "webpack"
+	command = "npm run serve"
 
 # SPA setup
 [[redirects]]
