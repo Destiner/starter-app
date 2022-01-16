@@ -14,7 +14,8 @@ import Banner from '@/components/BannerBase.vue';
 const block = ref('0');
 
 async function getLatestBlock(): Promise<string> {
-	const url = 'https://api.etherscan.io/api?module=block&action=getblocknobytime&timestamp=1578638524&closest=before&apikey=IIMQH3GC81HQYSFTZCW4AKHDFSWKYPV6C1';
+	const timestamp = Math.floor(Date.now() / 1000);
+	const url = `https://api.etherscan.io/api?module=block&action=getblocknobytime&timestamp=${timestamp}&closest=before&apikey=YourApiKeyToken`;
 	const data = await fetch(url);
 	const json = await data.json();
 	const block = json.result;
