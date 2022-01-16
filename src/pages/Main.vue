@@ -9,7 +9,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 
-import Banner from '@/components/Banner.vue';
+import Banner from '@/components/BannerBase.vue';
 
 const block = ref('0');
 
