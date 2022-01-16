@@ -1,7 +1,8 @@
 {
 	"env": {
+		"es6": true,
 		"browser": true,
-		"es6": true
+		"vue/setup-compiler-macros": true
 	},
 	"extends": [
 		"eslint:recommended",
