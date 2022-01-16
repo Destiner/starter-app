@@ -22,7 +22,7 @@ jobs:
       run: npm run lint
 
     - name: Type checking
-      run: tsc --noEmit
+      run: tsc --noEmit && vue-tsc --noEmit
 
     - name: Build
       run: npm run build
