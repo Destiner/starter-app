@@ -10,9 +10,9 @@
   "scripts": {
     "build": "vite build",
     "serve": "vite",
-    "lint": "npm run eslint && npm run stylelint",
-    "eslint": "eslint \"src/**/*.{js,ts,vue}\"",
-    "stylelint": "stylelint \"src/**/*.vue\""
+    "lint": "npm run lint:eslint && npm run lint:stylelint",
+    "lint:eslint": "eslint \"src/**/*.{js,ts,vue}\"",
+    "lint:stylelint": "stylelint \"src/**/*.{css,vue}\""
   },
   "dependencies": {
     "vue": "^3.2.26",
