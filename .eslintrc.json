@@ -23,7 +23,6 @@
 	},
 	"plugins": [
 		"import",
-		"eslint-plugin-prettier",
 		"vue"
 	],
 	"rules": {
@@ -53,7 +52,6 @@
 				"order": "asc"
 			}
 		}],
-		"prettier/prettier": "error",
 		"@typescript-eslint/ban-ts-ignore": "off",
 		"@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-use-before-define": "off",
