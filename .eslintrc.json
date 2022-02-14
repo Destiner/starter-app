@@ -1,83 +1,68 @@
 {
-	"env": {
-		"es6": true,
-		"browser": true,
-		"vue/setup-compiler-macros": true
-	},
-	"extends": [
-		"eslint:recommended",
-		"plugin:import/errors",
-		"plugin:import/warnings",
-		"plugin:import/typescript",
-		"plugin:@typescript-eslint/recommended",
-		"plugin:vue/vue3-recommended"
-	],
-	"globals": {
-		"Atomics": "readonly",
-		"SharedArrayBuffer": "readonly"
-	},
-	"parserOptions": {
-		"parser": "@typescript-eslint/parser",
-		"ecmaVersion": 2020,
-		"sourceType": "module"
-	},
-	"plugins": [
-		"import",
-		"vue"
-	],
-	"rules": {
-		"indent": [
-			"error",
-			"tab"
-		],
-		"linebreak-style": [
-			"error",
-			"unix"
-		],
-		"quotes": [
-			"error",
-			"single"
-		],
-		"semi": [
-			"error",
-			"always"
-		],
-		"comma-dangle": ["error", "always-multiline"],
-		"import/first": "error",
-		"import/newline-after-import": "error",
-		"import/no-duplicates": "error",
-		"import/order": ["error", {
-			"newlines-between": "always",
-			"alphabetize": {
-				"order": "asc"
-			}
-		}],
-		"@typescript-eslint/ban-ts-ignore": "off",
-		"@typescript-eslint/no-explicit-any": "off",
-        "@typescript-eslint/no-use-before-define": "off",
-        "vue/no-v-html": "off",
-		"vue/html-indent": [
-			"error",
-			"tab"
-		],
-		"vue/component-tags-order": [
-			"error",
-			{
-				"order": ["template", "script", "style"]
-			}
-		]
-	},
-	"settings": {
-		"import/resolver": {
-			"typescript": {}
-		}
-	},
-	"overrides": [
-		{
-			"files": ["src/pages/**/*.vue"],
-			"rules": {
-				"vue/multi-word-component-names": "off"
-			}
-		}
-	]
+  "env": {
+    "es6": true,
+    "browser": true,
+    "vue/setup-compiler-macros": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:vue/vue3-recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "plugins": ["import", "vue"],
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "comma-dangle": ["error", "always-multiline"],
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc"
+        }
+      }
+    ],
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "vue/no-v-html": "off",
+    "vue/html-indent": ["error", 2],
+    "vue/component-tags-order": [
+      "error",
+      {
+        "order": ["template", "script", "style"]
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
+  "overrides": [
+    {
+      "files": ["src/pages/**/*.vue"],
+      "rules": {
+        "vue/multi-word-component-names": "off"
+      }
+    }
+  ]
 }

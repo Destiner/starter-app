@@ -1,20 +1,20 @@
 <template>
-	<div id="app">
-		<div>
-			<router-link :to="'/'">
-				Home
-			</router-link>
-			<router-link :to="'/about'">
-				About
-			</router-link>
-		</div>
-		<router-view />
-	</div>
+  <div id="app">
+    <div>
+      <router-link :to="'/'">
+        Home
+      </router-link>
+      <router-link :to="'/about'">
+        About
+      </router-link>
+    </div>
+    <router-view />
+  </div>
 </template>
 
 <style>
 body {
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 /* Reset */
@@ -22,12 +22,12 @@ body {
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-	height: 100%;
+  height: 100%;
 }
 
 img,
@@ -35,15 +35,15 @@ picture,
 video,
 canvas,
 svg {
-	display: block;
-	max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 input,
 button,
 textarea,
 select {
-	font: inherit;
+  font: inherit;
 }
 
 p,
@@ -53,10 +53,10 @@ h3,
 h4,
 h5,
 h6 {
-	overflow-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 #app {
-	isolation: isolate;
+  isolation: isolate;
 }
 </style>

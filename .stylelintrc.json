@@ -1,11 +1,11 @@
 {
-	"extends": [
-		"stylelint-config-standard",
-		"stylelint-config-recommended-vue",
-		"stylelint-config-property-sort-order-smacss"
-	],
-	"rules": {
-		"string-quotes": "single",
-		"indentation": "tab"
-	}
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recommended-vue",
+    "stylelint-config-property-sort-order-smacss"
+  ],
+  "rules": {
+    "string-quotes": "single",
+    "indentation": 2
+  }
 }

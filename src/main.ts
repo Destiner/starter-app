@@ -7,11 +7,11 @@ import Main from './pages/Main.vue';
 
 const routerHistory = createWebHistory();
 const router = createRouter({
-	history: routerHistory,
-	routes: [
-		{ path: '/', component: Main },
-		{ path: '/about', component: About },
-	],
+  history: routerHistory,
+  routes: [
+    { path: '/', component: Main },
+    { path: '/about', component: About },
+  ],
 });
 
 const app = createApp(App);
