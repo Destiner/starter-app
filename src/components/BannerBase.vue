@@ -1,5 +1,3 @@
 <template>
-  <div>
-    Banner
-  </div>
+  <div>Banner</div>
 </template>
