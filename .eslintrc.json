@@ -45,6 +45,7 @@
     "@typescript-eslint/no-use-before-define": "off",
     "vue/no-v-html": "off",
     "vue/html-indent": ["error", 2],
+    "vue/singleline-html-element-content-newline": "off",
     "vue/component-tags-order": [
       "error",
       {
