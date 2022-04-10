@@ -1,21 +1,16 @@
 {
   "env": {
-    "es6": true,
+    "es2020": true,
     "browser": true,
     "vue/setup-compiler-macros": true
   },
   "extends": [
     "eslint:recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings",
+    "plugin:import/recommended",
     "plugin:import/typescript",
     "plugin:@typescript-eslint/recommended",
     "plugin:vue/vue3-recommended"
   ],
-  "globals": {
-    "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
-  },
   "parserOptions": {
     "parser": "@typescript-eslint/parser",
     "ecmaVersion": 2020,
@@ -23,14 +18,14 @@
   },
   "plugins": ["import", "vue"],
   "rules": {
-    "indent": ["error", 2],
-    "linebreak-style": ["error", "unix"],
-    "quotes": ["error", "single"],
-    "semi": ["error", "always"],
-    "comma-dangle": ["error", "always-multiline"],
     "import/first": "error",
+    "import/exports-last": "error",
     "import/newline-after-import": "error",
+    "import/prefer-default-export": "error",
+    "import/group-exports": "error",
     "import/no-duplicates": "error",
+    "import/no-amd": "error",
+    "import/no-commonjs": "error",
     "import/order": [
       "error",
       {
@@ -40,18 +35,14 @@
         }
       }
     ],
-    "@typescript-eslint/ban-ts-ignore": "off",
-    "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-use-before-define": "off",
-    "vue/no-v-html": "off",
-    "vue/html-indent": ["error", 2],
-    "vue/singleline-html-element-content-newline": "off",
-    "vue/component-tags-order": [
-      "error",
-      {
-        "order": ["template", "script", "style"]
-      }
-    ]
+    "import/no-unused-modules": "error",
+    "import/no-mutable-exports": "error",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["test/**/*.test.ts"]}],
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "vue/component-api-style": ["error", ["script-setup"]],
+    "vue/custom-event-name-casing": ["error", "kebab-case"],
+    "vue/no-empty-component-block": "error",
+    "vue/singleline-html-element-content-newline": "off"
   },
   "settings": {
     "import/resolver": {
