@@ -6,8 +6,8 @@
   ],
   "rules": {
     "string-quotes": "single",
+    "media-feature-name-allowed-list": ["max-width", "min-width", "prefers-color-scheme"],
     "declaration-colon-newline-after": null,
-    "value-list-comma-newline-after": null,
-    "indentation": 2
+    "value-list-comma-newline-after": null
   }
 }
