@@ -16,7 +16,7 @@
     "lint:stylelint": "stylelint \"src/**/*.{css,vue}\""
   },
   "dependencies": {
-    "vue": "3.2.31",
+    "vue": "3.2.33",
     "vue-router": "4.0.14"
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
     "@typescript-eslint/eslint-plugin": "5.18.0",
     "@typescript-eslint/parser": "5.18.0",
     "@vitejs/plugin-vue": "2.3.1",
-    "@vue/compiler-sfc": "3.2.31",
+    "@vue/compiler-sfc": "3.2.33",
     "eslint": "8.13.0",
     "eslint-import-resolver-typescript": "2.7.1",
     "eslint-plugin-import": "2.26.0",
