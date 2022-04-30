@@ -6,7 +6,7 @@
   ],
   "rules": {
     "string-quotes": "single",
-    "media-feature-name-allowed-list": ["max-width", "min-width", "prefers-color-scheme"],
+    "media-feature-name-allowed-list": ["min-width", "prefers-color-scheme"],
     "declaration-colon-newline-after": null,
     "value-list-comma-newline-after": null
   }
