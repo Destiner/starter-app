@@ -2,6 +2,11 @@
   "name": "starter-app",
   "version": "1.0.0",
   "description": "Starter Vue app",
+  "author": "Timur Badretdinov <destinerx@gmail.com>",
+  "keywords": [
+    "vue",
+    "starter"
+  ],
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
