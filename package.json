@@ -14,7 +14,7 @@
   },
   "scripts": {
     "build": "vite build",
-    "serve": "vite",
+    "dev": "vite",
     "lint": "npm run lint:prettier && npm run lint:eslint && npm run lint:stylelint",
     "lint:prettier": "prettier -c \"src/**/*.{json,js,ts,vue}\"",
     "lint:eslint": "eslint \"src/**/*.{js,ts,vue}\"",
