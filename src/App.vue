@@ -9,9 +9,19 @@
 </template>
 
 <style>
+:root {
+  --font-sans: -apple-system, 'BlinkMacSystemFont', avenir next, avenir,
+    segoe ui, helvetica neue, helvetica, 'Ubuntu', roboto, noto, arial,
+    sans-serif;
+  --font-serif: 'Iowan Old Style', 'Apple Garamond', 'Baskerville',
+    'Times New Roman', 'Droid Serif', 'Times', 'Source Serif Pro', serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --font-mono: 'Menlo', 'Consolas', 'Monaco', 'Liberation Mono',
+    'Lucida Console', monospace;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif;
+  font-family: var(--font-sans);
 }
 
 /* Reset */
