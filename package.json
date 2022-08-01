@@ -22,7 +22,7 @@
     "typecheck": "npx tsc --noEmit && npx vue-tsc --noEmit"
   },
   "dependencies": {
-    "vue": "3.2.33",
+    "vue": "3.2.37",
     "vue-router": "4.0.16"
   },
   "devDependencies": {
