@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
-    "module": "ES2020",
-    "moduleResolution": "node",
-    "jsx": "preserve",
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
 
-    "declaration": true,
-    "declarationMap": true,
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
     "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
@@ -19,7 +19,6 @@
     "noUncheckedIndexedAccess": false,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "sourceMap": true,
     "strict": true,
     "useDefineForClassFields": true,
 
