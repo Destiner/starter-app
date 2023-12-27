@@ -7,9 +7,7 @@ import Main from './pages/Main.vue';
 const routerHistory = createWebHistory();
 const router = createRouter({
   history: routerHistory,
-  routes: [
-    { path: '/', component: Main },
-  ],
+  routes: [{ path: '/', component: Main }],
 });
 
 const app = createApp(App);
