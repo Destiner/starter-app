@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git://github.com/Destiner/starter-app.git"
   },
+  "type": "module",
   "scripts": {
     "build": "vite build",
     "dev": "vite",
