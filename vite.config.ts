@@ -1,13 +1,7 @@
-import path from 'path';
-
 import vue from '@vitejs/plugin-vue';
 import { defineConfig } from 'vite';
+import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
-  plugins: [vue()],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, 'src'),
-    },
-  },
+  plugins: [tsconfigPaths(), vue()],
 });
