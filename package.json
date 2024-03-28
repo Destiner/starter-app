@@ -2,7 +2,10 @@
   "name": "starter-app",
   "version": "1.0.0",
   "description": "Starter Vue app",
-  "author": "Timur Badretdinov <destinerx@gmail.com>",
+  "author": {
+    "name": "Timur Badretdinov",
+    "url": "https://github.com/Destiner"
+  },
   "keywords": [
     "vue",
     "starter"
