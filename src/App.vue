@@ -1,9 +1,14 @@
 <template>
   <div id="app">
-    <router-view />
+    <RouterView />
   </div>
 </template>
 
+<script setup lang="ts">
+import { RouterView } from 'vue-router';
+</script>
+
+<!-- eslint-disable-next-line vue/enforce-style-attribute -->
 <style>
 :root {
   --font-sans: -apple-system, 'BlinkMacSystemFont', avenir next, avenir,
