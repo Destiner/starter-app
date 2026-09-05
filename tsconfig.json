@@ -28,9 +28,8 @@
     /* Browser-specific */
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     /* Imports */
-    "baseUrl": "src",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["./src/*"]
     }
   }
 }
